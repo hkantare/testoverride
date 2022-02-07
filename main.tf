@@ -6,11 +6,11 @@ data "ibm_resource_group" "test" {
     is_default = true
 }
 
-resource "null_resource" "sleep" {
+/*resource "null_resource" "sleep" {
   provisioner "local-exec" {
     command = "sleep 120"
   }
-}
+}*/
 
 
 
